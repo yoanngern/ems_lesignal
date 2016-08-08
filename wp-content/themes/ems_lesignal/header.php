@@ -22,6 +22,10 @@
 	<a id="logo" href="/"></a>
 	<a id="logo2" href="/"></a>
 
+	<a id="logo_mobile"></a>
+	<div id="burger"></div>
+
+
 	<?php if ( has_nav_menu( 'header-menu' ) ) : ?>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation"
@@ -56,7 +60,7 @@
 
 
 		if ( in_array( "home", $body_class ) ) {
-			$height = 562;
+			$height = 559;
 		}
 
 		?>

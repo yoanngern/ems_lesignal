@@ -62,7 +62,7 @@
 
 			if ( $images ): ?>
 
-				<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>" data-height="350"
+				<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>" data-height="388"
 				     data-nav="false" data-pag="true">
 					<?php foreach ( $images as $image ): ?>
 						<div style="background-image: url('<?php echo $image['url']; ?>')"></div>

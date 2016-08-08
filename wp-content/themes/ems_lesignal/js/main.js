@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
 
         var slideheader = $("section.slideheader").height();
 
-        var start = slideheader -180;
+        var start = slideheader -130;
 
         if(pos >= start && pos <= (start+68)) {
             header((pos-start)/0.68);
@@ -45,7 +45,6 @@ jQuery(document).ready(function ($) {
         $("#logo, #logo2", header).height((100-pos)*0.5+50);
         $("#logo, #logo2", header).width((100-pos)*1.41+141);
         $("#logo, #logo2", header).css("marginTop",(100-pos)*0.05+6);
-        //$("nav a", header).css("fontSize", ((100-pos)*0.04+16));
         $("nav", header).css("marginTop", ((100-pos)*0.28+2));
 
     }
