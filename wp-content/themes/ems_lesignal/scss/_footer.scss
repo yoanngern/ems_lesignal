@@ -1,0 +1,98 @@
+footer {
+    background-color: $brown;
+    color: $white;
+    padding: 32px 48px;
+    position: relative;
+    height: auto;
+
+    a {
+        color: $beige;
+        text-decoration: none;
+    }
+
+    div.content {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1310px;
+    }
+
+    nav {
+        border-bottom: 1px solid $beige;
+        margin-bottom: 16px;
+        display: none;
+
+        ul {
+            margin-bottom: 16px;
+
+            li {
+                display: inline-block;
+                padding: 16px;
+
+                a {
+                    display: block;
+                    font-family: $font-bold;
+                    font-size: 1.15em;
+                    
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    div.address,
+    div.contact {
+        width: 160px;
+        margin: 16px;
+        display: inline-block;
+        vertical-align: top;
+
+        h3 {
+            font-family: $font-bold;
+            font-size: 0.9em;
+            color: $beige;
+            padding-bottom: 8px;
+        }
+
+        p {
+            color: $beige;
+            font-size: 0.9em;
+        }
+    }
+
+    div.partners {
+        display: inline-block;
+        vertical-align: top;
+        float: right;
+        margin-right: 8px;
+
+        a {
+            height: 89px;
+            display: inline-block;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: transparent;
+            line-height: 0;
+            font-size: 0;
+            margin: 0 8px;
+
+            &#avdems {
+                background-image: url('images/logo_avdems.png');
+                width: 183px;
+            }
+
+            &#rsrl {
+                background-image: url('images/logo_rsrl.png');
+                width: 183px;
+            }
+
+            &#palliative {
+                background-image: url('images/logo_palliative.png');
+                width: 102px;
+            }
+        }
+
+    }
+}
