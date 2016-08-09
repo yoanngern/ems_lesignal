@@ -2,6 +2,12 @@
 // @codekit-prepend "vendor/jquery.slides.min.js"
 
 jQuery(document).ready(function ($) {
+
+    $("body > header").on("click", "#burger", function (event) {
+        event.preventDefault();
+        $("body > header nav").toggleClass("show");
+    });
+
     $(document).scroll(function() {
 
         var pos = $(document).scrollTop();

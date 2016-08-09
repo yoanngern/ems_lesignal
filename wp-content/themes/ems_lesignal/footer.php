@@ -27,7 +27,7 @@
 			<h3>Nous contacter</h3>
 			<p>Tél:  021 903 11 66</p>
 			<p>Fax: 021 903 38 18</p>
-			<p><a href="mailto:info@ems-lesignal.ch">info@ems-lesignal.ch</a></p>
+			<p><a href="/contact">info@ems-lesignal.ch</a></p>
 		</div>
 
 		<div class="partners">

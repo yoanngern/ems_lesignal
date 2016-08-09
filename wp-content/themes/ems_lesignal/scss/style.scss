@@ -351,6 +351,10 @@ ul.icons {
             position: fixed;
             margin: 0 !important;
 
+            &.show {
+                display: block;
+            }
+
             ul {
                 li {
                     display: block;
@@ -358,11 +362,19 @@ ul.icons {
                     margin: 0;
                     padding: 0;
 
+                    &.current-menu-item a {
+                        color: lighten($blue, 20);
+                    }
+
                     a {
                         color: $white;
                         text-align: center;
                         padding: 0;
                         line-height: 48px;
+
+                        &:hover {
+                            border-bottom: none;
+                        }
                     }
                 }
             }
@@ -370,7 +382,7 @@ ul.icons {
 
         #logo_mobile {
             display: block;
-            top: 7px;
+            top: 6px;
             height: 42px;
             width: 124px;
             position: absolute;
@@ -388,6 +400,52 @@ ul.icons {
             right: 14px;
             background-image: url('images/burger.svg');
             cursor: pointer;
+        }
+    }
+
+    section.slide_full {
+        article {
+            position: relative;
+            right: inherit;
+            bottom: inherit;
+            width: 90%;
+            margin: 16px auto 32px;
+            text-align: center;
+
+            p {
+                color: $brown;
+                text-shadow: none;
+                font-size: 1.15em;
+            }
+
+            a {
+                background-color: $blue;
+                color: $white;
+                font-size: 0.8em;
+                padding: 2px 10px 2px;
+                margin-top: 16px;
+            }
+        }
+    }
+
+    div.button {
+        display: block;
+        margin: 0;
+
+        a {
+            border-radius: 0px;
+            width: 100%;
+            padding: 0;
+            line-height: 48px;
+        }
+    }
+
+    section.col3_text {
+        margin: 0 auto;
+
+        article {
+            width: 90%;
+            margin: 36px 2% 8px;
         }
     }
 
@@ -435,11 +493,27 @@ ul.icons {
 
     section.slogan {
 
+        h1 {
+            padding: 0;
+            width: 92%;
+            font-size: 2.1em;
+        }
+
         div.line {
             display: none;
         }
 
     }
+
+    ul.icons {
+        margin: 0 auto;
+
+        li {
+            width: 90%;
+            margin: 36px 0 8px;
+        }
+    }
+
 
 
 }

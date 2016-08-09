@@ -22,7 +22,7 @@
 	<a id="logo" href="/"></a>
 	<a id="logo2" href="/"></a>
 
-	<a id="logo_mobile"></a>
+	<a id="logo_mobile" href="/"></a>
 	<div id="burger"></div>
 
 
