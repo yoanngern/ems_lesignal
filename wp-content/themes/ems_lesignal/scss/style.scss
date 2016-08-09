@@ -172,7 +172,7 @@ section.slide_text {
 
 section.slideheader {
     position: relative;
-    margin-top: 64px;
+    //margin-top: 64px;
 
     div.logowhite {
         width: 100%;
@@ -190,6 +190,8 @@ section.slideheader {
 
     div.slidesjs-slide {
         background-attachment: fixed;
+        background-position: top center;
+        background-size: cover;
     }
 
     .gradient {

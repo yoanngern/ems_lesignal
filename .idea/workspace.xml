@@ -4,8 +4,7 @@
     <list default="true" id="0a5f5186-22e0-48f5-b972-0a1e0aaea34b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/.sass-cache/9b79a7c401b767d340130330b9c09707a7d97346/style.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/.sass-cache/9b79a7c401b767d340130330b9c09707a7d97346/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/config.codekit" afterPath="$PROJECT_DIR$/wp-content/config.codekit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss" />
@@ -29,9 +28,25 @@
     <favorites_list name="ems_lesignal" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="174" column="23" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Yoann Gern &lt;yoann@yoanngern.ch&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -51,10 +66,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/_header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js" />
       </list>
     </option>
   </component>
@@ -307,18 +322,26 @@
       <workItem from="1469169425580" duration="11417000" />
       <workItem from="1469430503177" duration="1561000" />
       <workItem from="1470136339839" duration="7254000" />
-      <workItem from="1470204764646" duration="22520000" />
+      <workItem from="1470204764646" duration="24109000" />
     </task>
+    <task id="LOCAL-00001" summary="mobile version">
+      <created>1470732007185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1470732007185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55633000" />
+    <option name="totallyTimeSpent" value="57222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49003986" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49003986" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -368,6 +391,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="mobile version" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile version" />
+  </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
   </component>
@@ -376,14 +405,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -765,21 +786,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="448" column="9" selection-start-line="448" selection-start-column="9" selection-end-line="448" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="174" column="23" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
