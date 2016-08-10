@@ -60,14 +60,29 @@
 
 			$images = get_sub_field( 'images' );
 
-			if ( $images ): ?>
+			if ( $images ):
 
-				<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>" data-height="388"
-				     data-nav="false" data-pag="true">
-					<?php foreach ( $images as $image ): ?>
-						<div style="background-image: url('<?php echo $image['sizes']['full-slide']; ?>')"></div>
-					<?php endforeach; ?>
-				</div>
+				if ( count( $images ) == 1 ):
+
+					$image = $images[0];
+
+					?>
+
+					<div class="oneimage"
+					     style="background-image: url('<?php echo $image['sizes']['full-slide']; ?>')" data-width="1320"
+					     data-height="388"></div>
+
+				<?php else: ?>
+
+					<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>" data-height="388"
+					     data-nav="false" data-pag="true">
+						<?php foreach ( $images as $image ): ?>
+							<div style="background-image: url('<?php echo $image['sizes']['full-slide']; ?>')"></div>
+						<?php endforeach; ?>
+					</div>
+
+				<?php endif; ?>
+
 
 			<?php endif; ?>
 
@@ -92,17 +107,30 @@
 
 			$images = get_sub_field( 'images' );
 
-			if ( $images ): ?>
+			if ( $images ):
 
-				<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>" data-height="742.5"
-				     data-nav="false" data-pag="true">
-					<?php foreach ( $images as $image ): ?>
+				if ( count( $images ) == 1 ):
+
+					$image = $images[0];
+
+					?>
+
+					<div class="oneimage"
+					     style="background-image: url('<?php echo $image['sizes']['16_9-slide']; ?>')" data-width="1320"
+					     data-height="742.5"></div>
+
+				<?php else: ?>
+
+					<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>" data-height="742.5"
+					     data-nav="false" data-pag="true">
+						<?php foreach ( $images as $image ): ?>
 
 
+							<div style="background-image: url('<?php echo $image['sizes']['16_9-slide']; ?>')"></div>
+						<?php endforeach; ?>
+					</div>
 
-						<div style="background-image: url('<?php echo $image['sizes']['16_9-slide']; ?>')"></div>
-					<?php endforeach; ?>
-				</div>
+				<?php endif; ?>
 
 			<?php endif; ?>
 
@@ -121,9 +149,9 @@
 
 <?php
 
-$location = get_field('map');
+$location = get_field( 'map' );
 
-if( !empty($location) ):
+if ( ! empty( $location ) ):
 	?>
 	<div class="acf-map">
 		<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>

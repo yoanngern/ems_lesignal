@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
         $("body > header nav").toggleClass("show");
     });
 
-    $(document).scroll(function() {
+    $(document).scroll(function () {
 
         var pos = $(document).scrollTop();
 
@@ -16,26 +16,36 @@ jQuery(document).ready(function ($) {
 
         var slideheader = $("section.slideheader").height();
 
-        var start = slideheader -100;
+        var start = slideheader - 100;
 
-        if(pos >= start && pos <= (start+68)) {
-            header((pos-start)/0.68);
-        } else if(pos >= (start+68)) {
+        if (pos >= start && pos <= (start + 68)) {
+            header((pos - start) / 0.68);
+        } else if (pos >= (start + 68)) {
             header(100);
-        } else if(pos <= start) {
+        } else if (pos <= start) {
             header(0);
         }
 
-        if(pos >= 0 && pos <= 200) {
-            $("div.logowhite").css("opacity", (- Math.pow((pos/2), 2))/10000+1);
-        } else if(pos >= 200) {
+        if (pos >= 0 && pos <= 200) {
+            $("div.logowhite").css("opacity", (-Math.pow((pos / 2), 2)) / 10000 + 1);
+        } else if (pos >= 200) {
             $("div.logowhite").css("opacity", 0);
-        } else if(pos <= start) {
+        } else if (pos <= start) {
             $("div.logowhite").css("opacity", 1);
         }
+    });
 
+    $(window).resize(function () {
 
+        $("div.oneimage").each(function () {
+            var wImage = $(this).width();
 
+            var ratio = $(this).data("height") / $(this).data("width");
+
+            console.log(ratio);
+
+            $(this).height(wImage * ratio);
+        });
     });
 
     /*
@@ -45,13 +55,13 @@ jQuery(document).ready(function ($) {
 
         var header = $("body > header");
 
-        $(header).height(68-(pos*0.68)+64);
+        $(header).height(68 - (pos * 0.68) + 64);
 
-        $("#logo", header).css("opacity", ((100-pos)/100));
-        $("#logo, #logo2", header).height((100-pos)*0.5+50);
-        $("#logo, #logo2", header).width((100-pos)*1.41+141);
-        $("#logo, #logo2", header).css("marginTop",(100-pos)*0.05+6);
-        $("nav", header).css("marginTop", ((100-pos)*0.28+2));
+        $("#logo", header).css("opacity", ((100 - pos) / 100));
+        $("#logo, #logo2", header).height((100 - pos) * 0.5 + 50);
+        $("#logo, #logo2", header).width((100 - pos) * 1.41 + 141);
+        $("#logo, #logo2", header).css("marginTop", (100 - pos) * 0.05 + 6);
+        $("nav", header).css("marginTop", ((100 - pos) * 0.28 + 2));
 
     }
 

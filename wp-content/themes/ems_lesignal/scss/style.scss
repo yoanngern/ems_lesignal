@@ -54,6 +54,14 @@ div.button {
     }
 }
 
+div.oneimage {
+    height: 377px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section.slide_full {
     position: relative;
     overflow: auto;
@@ -130,7 +138,8 @@ section.slide_text {
     overflow: auto;
     position: relative;
 
-    .slidesjs {
+    .slidesjs,
+    div.oneimage{
         width: 60%;
         display: inline-block;
         vertical-align: top;
@@ -163,7 +172,8 @@ section.slide_text {
     }
 
     &:nth-child(odd) {
-        .slidesjs {
+        .slidesjs,
+        div.oneimage {
             float: right;
         }
     }
@@ -515,7 +525,5 @@ ul.icons {
             margin: 36px 0 8px;
         }
     }
-
-
 
 }

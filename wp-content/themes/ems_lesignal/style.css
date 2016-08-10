@@ -292,6 +292,13 @@ div.button {
     margin: 0 auto;
     display: inline-block; }
 
+div.oneimage {
+  height: 377px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 section.slide_full {
   position: relative;
   overflow: auto; }
@@ -350,7 +357,8 @@ section.slide_text {
   margin: 0;
   overflow: auto;
   position: relative; }
-  section.slide_text .slidesjs {
+  section.slide_text .slidesjs,
+  section.slide_text div.oneimage {
     width: 60%;
     display: inline-block;
     vertical-align: top;
@@ -374,7 +382,8 @@ section.slide_text {
       display: block; }
       section.slide_text article .text h2 {
         margin: 0; }
-  section.slide_text:nth-child(odd) .slidesjs {
+  section.slide_text:nth-child(odd) .slidesjs,
+  section.slide_text:nth-child(odd) div.oneimage {
     float: right; }
 
 section.slideheader {
