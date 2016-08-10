@@ -65,7 +65,7 @@
 				<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>" data-height="388"
 				     data-nav="false" data-pag="true">
 					<?php foreach ( $images as $image ): ?>
-						<div style="background-image: url('<?php echo $image['url']; ?>')"></div>
+						<div style="background-image: url('<?php echo $image['sizes']['full-slide']; ?>')"></div>
 					<?php endforeach; ?>
 				</div>
 
@@ -97,7 +97,10 @@
 				<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>" data-height="742.5"
 				     data-nav="false" data-pag="true">
 					<?php foreach ( $images as $image ): ?>
-						<div style="background-image: url('<?php echo $image['url']; ?>')"></div>
+
+
+
+						<div style="background-image: url('<?php echo $image['sizes']['16_9-slide']; ?>')"></div>
 					<?php endforeach; ?>
 				</div>
 

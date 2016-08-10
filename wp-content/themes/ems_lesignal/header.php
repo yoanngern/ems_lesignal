@@ -69,7 +69,7 @@
 		<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>"
 		     data-height="<?php echo $height; ?>">
 			<?php foreach ( $images as $image ): ?>
-				<div style="background-image: url('<?php echo $image['url']; ?>')"></div>
+				<div style="background-image: url('<?php echo $image['sizes']['header-slide']; ?>')"></div>
 			<?php endforeach; ?>
 		</div>
 
