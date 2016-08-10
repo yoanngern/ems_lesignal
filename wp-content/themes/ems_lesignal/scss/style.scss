@@ -189,9 +189,10 @@ section.slideheader {
     }
 
     div.slidesjs-slide {
-        background-attachment: fixed;
+        //background-attachment: fixed;
         background-position: top center;
         background-size: cover;
+        height: 100vh;
     }
 
     .gradient {

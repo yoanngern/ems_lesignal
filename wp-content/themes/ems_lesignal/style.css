@@ -391,9 +391,9 @@ section.slideheader {
     z-index: 100;
     background-size: contain; }
   section.slideheader div.slidesjs-slide {
-    background-attachment: fixed;
     background-position: top center;
-    background-size: cover; }
+    background-size: cover;
+    height: 100vh; }
   section.slideheader .gradient {
     width: 100%;
     height: 20%;
