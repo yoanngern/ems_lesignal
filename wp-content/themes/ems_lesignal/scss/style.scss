@@ -139,7 +139,7 @@ section.slide_text {
     position: relative;
 
     .slidesjs,
-    div.oneimage{
+    div.oneimage {
         width: 60%;
         display: inline-block;
         vertical-align: top;
@@ -466,7 +466,8 @@ ul.icons {
     }
 
     section.slide_text {
-        .slidesjs {
+        .slidesjs,
+        div.oneimage {
             float: inherit;
             display: block;
             width: 100%;
