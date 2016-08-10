@@ -377,7 +377,8 @@ section.slide_text {
     float: right; }
 
 section.slideheader {
-  position: relative; }
+  position: relative;
+  margin-top: 110px; }
   section.slideheader div.logowhite {
     width: 100%;
     height: 70%;
@@ -390,10 +391,6 @@ section.slideheader {
     top: 130px;
     z-index: 100;
     background-size: contain; }
-  section.slideheader div.slidesjs-slide {
-    background-position: top center;
-    background-size: cover;
-    height: 100vh; }
   section.slideheader .gradient {
     width: 100%;
     height: 20%;
@@ -411,8 +408,8 @@ section.slogan {
   position: relative;
   height: auto;
   text-align: center;
-  margin: 96px 0 0;
-  padding-bottom: 96px; }
+  margin: 80px 0 0;
+  padding-bottom: 80px; }
   section.slogan .gradient {
     width: 100%;
     height: 30%;
