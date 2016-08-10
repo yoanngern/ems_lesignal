@@ -16,7 +16,7 @@ jQuery(document).ready(function ($) {
 
         var slideheader = $("section.slideheader").height();
 
-        var start = slideheader -180;
+        var start = slideheader -100;
 
         if(pos >= start && pos <= (start+68)) {
             header((pos-start)/0.68);
