@@ -267,6 +267,7 @@ html, body {
 section.slide_full,
 section.slide_text,
 section.col3_text,
+section.map,
 ul.icons {
   max-width: 1400px;
   margin: 0 auto; }
@@ -475,7 +476,7 @@ section.slogan {
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    padding: 0 32px;
+    padding: 0 64px;
     margin: 0;
     line-height: 1.4em;
     background-color: #FFFFFF;
