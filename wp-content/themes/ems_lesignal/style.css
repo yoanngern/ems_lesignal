@@ -54,6 +54,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 header {
   position: fixed;
   width: 100%;
+  max-width: 1400px;
   display: block;
   top: 0;
   height: 132px;
@@ -250,12 +251,14 @@ footer {
           background-color: #FFFFFF; }
 
 html, body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: block;
   font-size: 18px;
   font-family: "metropolisregular", sans-serif;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  max-width: 1400px; }
 
 h1 {
   text-align: center;

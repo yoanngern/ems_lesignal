@@ -9,12 +9,14 @@
 @import 'slides';
 
 html, body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: block;
     font-size: 18px;
     font-family: $font;
     -webkit-font-smoothing: antialiased;
+    width: 100%;
+    max-width: 1400px;
 }
 
 h1 {
