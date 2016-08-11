@@ -22,8 +22,12 @@
 	<a id="logo" href="/"></a>
 	<a id="logo2" href="/"></a>
 
-	<a id="logo_mobile" href="/"></a>
-	<div id="burger"></div>
+	<a id="logo_mobile" href="/">
+		<div class="icon"></div>
+	</a>
+	<div id="burger">
+		<div class="icon"></div>
+	</div>
 
 
 	<?php if ( has_nav_menu( 'header-menu' ) ) : ?>

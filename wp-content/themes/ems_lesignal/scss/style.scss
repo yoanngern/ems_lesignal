@@ -387,24 +387,43 @@ ul.icons {
 
         #logo_mobile {
             display: block;
-            top: 6px;
+            top: 0;
             height: 42px;
             width: 124px;
             position: absolute;
-            left: 7px;
-            background-image: url('images/logo_mobile.svg');
+            left: 0;
+            padding: 6px 7px;
             cursor: pointer;
+
+            .icon {
+                background-image: url('images/logo_mobile.svg');
+                width: 100%;
+                height: 100%;
+                display: block;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
         }
 
         #burger {
             display: block;
-            top: 14px;
+            top: 0;
             height: 27px;
             width: 32px;
             position: absolute;
-            right: 14px;
-            background-image: url('images/burger.svg');
+            padding: 14px 14px 13px 14px;
+            right: 0;
+
             cursor: pointer;
+
+            .icon {
+                background-image: url('images/burger.svg');
+                width: 100%;
+                height: 100%;
+                display: block;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
         }
     }
 
