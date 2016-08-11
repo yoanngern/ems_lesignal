@@ -75,10 +75,16 @@
 
 		$image = $images[0];
 
+		$thumb = $image['sizes']['header-slide'];
+
+		if ( in_array( "home", $body_class ) ) {
+			$thumb = $image['sizes']['header-home'];
+		}
+
 		?>
 
 		<div class="oneimage"
-		     style="background-image: url('<?php echo $image['sizes']['header-slide']; ?>')" data-width="1320"
+		     style="background-image: url('<?php echo $thumb; ?>')" data-width="1320"
 		     data-height="<?php echo $height; ?>" data-height-mobile="600"></div>
 
 	<?php else: ?>
@@ -86,8 +92,17 @@
 
 		<div id="slides" class="slidesjs" data-size="<?php echo count( $images ); ?>"
 		     data-height="<?php echo $height; ?>">
-			<?php foreach ( $images as $image ): ?>
-				<div style="background-image: url('<?php echo $image['sizes']['header-slide']; ?>')"></div>
+			<?php foreach ( $images as $image ):
+
+				$thumb = $image['sizes']['header-slide'];
+
+				if ( in_array( "home", $body_class ) ) {
+					$thumb = $image['sizes']['header-home'];
+				}
+
+				?>
+
+				<div style="background-image: url('<?php echo $thumb; ?>')"></div>
 			<?php endforeach; ?>
 		</div>
 	<?php endif; ?>
