@@ -54,8 +54,6 @@ jQuery(document).ready(function ($) {
                 ratio = $(this).data("height") / $(this).data("width");
             }
 
-            console.log(ratio);
-
             $(this).height(wImage * ratio);
         });
     }

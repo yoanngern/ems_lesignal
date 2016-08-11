@@ -314,7 +314,7 @@ section.slide_full {
       color: #FFFFFF;
       font-family: "metropolisbold", "metropolisregular", sans-serif;
       font-size: 1.35em;
-      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); }
+      text-shadow: 1px 1px 5px black; }
     section.slide_full article a {
       background-color: #FFFFFF;
       color: #1B5F7A;
