@@ -56,6 +56,8 @@
 
 	<?php while ( have_rows( 'slides' ) ): the_row(); ?>
 		<section class="slide_full">
+
+			<div class="gradient_top"></div>
 			<?php
 
 			$images = get_sub_field( 'images' );
@@ -85,6 +87,8 @@
 
 
 			<?php endif; ?>
+
+			<div class="gradient_bottom"></div>
 
 			<article>
 				<div class="text">
