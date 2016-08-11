@@ -153,7 +153,7 @@
 
 <?php
 
-if ( have_rows( 'map' ) ):
+//if ( have_rows( 'map' ) ):
 
 	$location = get_field( 'map' );
 
@@ -190,7 +190,7 @@ if ( have_rows( 'map' ) ):
 		</section>
 
 	<?php endif; ?>
-<?php endif; ?>
+<?php //endif; ?>
 
 
 
