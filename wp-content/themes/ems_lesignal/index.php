@@ -70,7 +70,7 @@
 
 					<div class="oneimage"
 					     style="background-image: url('<?php echo $image['sizes']['full-slide']; ?>')" data-width="1320"
-					     data-height="388"></div>
+					     data-height="388" data-height-mobile="500"></div>
 
 				<?php else: ?>
 
