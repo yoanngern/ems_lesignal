@@ -363,7 +363,7 @@ form {
         padding: 4px 8px;
         margin: 1px;
         max-width: 300px;
-        width: 100%;
+        width: 90%;
         font-size: 1.15em;
 
         &:focus {
@@ -638,10 +638,33 @@ ul.icons {
         }
     }
 
+    section.map {
+        .oneimage {
+            float: inherit;
+            display: block;
+            width: 100%;
+        }
+
+        article {
+            position: relative;
+            width: 90%;
+            max-width: 600px;
+            margin: 24px 5% 36px;
+
+            .text {
+                top: inherit;
+                -webkit-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
-    section.slide_text {
+    section.slide_text,
+    section.map {
         article {
             margin: 0;
             width: 100%;

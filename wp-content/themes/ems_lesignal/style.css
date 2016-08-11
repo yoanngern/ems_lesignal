@@ -544,7 +544,7 @@ form {
     padding: 4px 8px;
     margin: 1px;
     max-width: 300px;
-    width: 100%;
+    width: 90%;
     font-size: 1.15em; }
     form input:focus,
     form textarea:focus {
@@ -730,12 +730,29 @@ ul.icons {
       top: inherit;
       -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
+      transform: translateY(0); }
+
+  section.map .oneimage {
+    float: inherit;
+    display: block;
+    width: 100%; }
+  section.map article {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    margin: 24px 5% 36px; }
+    section.map article .text {
+      top: inherit;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
       transform: translateY(0); } }
 @media only screen and (max-width: 500px) {
-  section.slide_text article {
+  section.slide_text article,
+  section.map article {
     margin: 0;
     width: 100%; }
-    section.slide_text article .text {
+    section.slide_text article .text,
+    section.map article .text {
       padding: 24px 16px 48px;
       margin: 0; }
 
