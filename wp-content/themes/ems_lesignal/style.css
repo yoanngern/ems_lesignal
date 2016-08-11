@@ -264,9 +264,12 @@ html, body {
   -webkit-font-smoothing: antialiased;
   width: 100%; }
 
-body > div.content {
-  margin: 0 auto;
-  max-width: 1400px; }
+section.slide_full,
+section.slide_text,
+section.col3_text,
+ul.icons {
+  max-width: 1400px;
+  margin: 0 auto; }
 
 h1 {
   text-align: center;
@@ -286,7 +289,8 @@ p {
 
 div.button {
   text-align: center;
-  margin: 64px 0; }
+  margin: 64px auto;
+  max-width: 1400px; }
   div.button a {
     background-color: #1B5F7A;
     color: #FFFFFF;
@@ -388,7 +392,7 @@ section.col3_text {
       color: #1B5F7A; }
 
 section.slide_text {
-  margin: 0;
+  margin: 0 auto;
   overflow: auto;
   position: relative; }
   section.slide_text .slidesjs,
