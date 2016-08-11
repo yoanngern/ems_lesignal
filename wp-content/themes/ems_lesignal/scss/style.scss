@@ -272,6 +272,12 @@ section.slogan {
 
     }
 
+    div.center {
+        margin: 0 auto;
+        max-width: 1532px;
+        position: relative;
+    }
+
     div.line {
         width: 45%;
         height: 1px;
@@ -281,7 +287,6 @@ section.slogan {
         top: 50%;
         position: absolute;
         z-index: 1;
-        margin-top: -40px;
 
         &.left {
             left: 64px;

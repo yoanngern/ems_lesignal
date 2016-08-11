@@ -481,6 +481,10 @@ section.slogan {
     background-color: #FFFFFF;
     z-index: 100;
     position: relative; }
+  section.slogan div.center {
+    margin: 0 auto;
+    max-width: 1532px;
+    position: relative; }
   section.slogan div.line {
     width: 45%;
     height: 1px;
@@ -489,8 +493,7 @@ section.slogan {
     vertical-align: top;
     top: 50%;
     position: absolute;
-    z-index: 1;
-    margin-top: -40px; }
+    z-index: 1; }
     section.slogan div.line.left {
       left: 64px; }
     section.slogan div.line.right {
