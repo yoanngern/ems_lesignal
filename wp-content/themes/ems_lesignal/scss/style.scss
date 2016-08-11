@@ -64,6 +64,10 @@ div.button {
         margin: 0 auto;
         display: inline-block;
 
+        &:hover {
+        background-color: lighten($blue, 10);
+        }
+
     }
 }
 
@@ -130,6 +134,11 @@ section.slide_full {
             font-family: $font-bold;
             margin-top: 20px;
             display: inline-block;
+
+            &:hover {
+                background-color: darken($white, 5);
+                color: lighten($blue, 10);
+            }
         }
 
     }
@@ -419,12 +428,18 @@ ul.icons {
     margin: 64px auto;
     text-align: center;
 
+
+
     li {
         display: inline-block;
         max-width: 300px;
         width: 28%;
         margin: 0 2%;
         vertical-align: top;
+
+        &:hover {
+            opacity: 0.65;
+        }
 
         a {
             display: block;

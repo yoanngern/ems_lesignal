@@ -307,6 +307,8 @@ div.button {
     font-family: "metropolisbold", "metropolisregular", sans-serif;
     margin: 0 auto;
     display: inline-block; }
+    div.button a:hover {
+      background-color: #2480a4; }
 
 div.oneimage {
   height: 377px;
@@ -369,6 +371,9 @@ section.slide_full {
       font-family: "metropolisbold", "metropolisregular", sans-serif;
       margin-top: 20px;
       display: inline-block; }
+      section.slide_full article a:hover {
+        background-color: #f2f2f2;
+        color: #2480a4; }
 
 section.col3_text {
   margin: 64px auto 32px;
@@ -598,6 +603,8 @@ ul.icons {
     width: 28%;
     margin: 0 2%;
     vertical-align: top; }
+    ul.icons li:hover {
+      opacity: 0.65; }
     ul.icons li a {
       display: block;
       text-decoration: none; }
