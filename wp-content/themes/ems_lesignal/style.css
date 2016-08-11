@@ -510,9 +510,65 @@ section.map {
       position: relative;
       display: block; }
       section.map article .text div {
-        margin-bottom: 20px; }
+        margin-bottom: 24px; }
       section.map article .text h2 {
         margin: 0; }
+
+form {
+  width: 100%;
+  max-width: 710px;
+  margin: 0 auto 36px;
+  display: block; }
+  form fieldset {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 16px; }
+  form label {
+    color: #9A7E73;
+    font-family: "metropolisbold", "metropolisregular", sans-serif;
+    font-size: 0.75em;
+    margin-bottom: 16px;
+    display: block; }
+  form textarea {
+    height: 160px; }
+  form input,
+  form textarea {
+    border: 1px solid #9A7E73;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 24px;
+    color: #9A7E73;
+    padding: 4px 8px;
+    margin: 1px;
+    max-width: 300px;
+    width: 100%;
+    font-size: 1.15em; }
+    form input:focus,
+    form textarea:focus {
+      border: 2px solid #9A7E73;
+      outline: none;
+      margin: 0; }
+    form input[type="submit"],
+    form textarea[type="submit"] {
+      background-color: #1B5F7A;
+      color: #FFFFFF;
+      width: auto;
+      font-family: "metropolisbold", "metropolisregular", sans-serif;
+      text-transform: uppercase;
+      border: none;
+      text-align: center;
+      display: block;
+      margin: 16px auto 0; }
+  form span.alert,
+  form span.wpcf7-not-valid-tip {
+    color: #1B5F7A; }
+  form div.wpcf7-response-output {
+    border: 2px solid #9A7E73;
+    color: #9A7E73;
+    text-align: center; }
 
 ul.icons {
   margin: 64px auto;

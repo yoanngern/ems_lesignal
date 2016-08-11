@@ -318,7 +318,7 @@ section.map {
             display: block;
 
             div {
-                margin-bottom: 20px;
+                margin-bottom: 24px;
             }
 
             h2 {
@@ -327,6 +327,74 @@ section.map {
         }
     }
 
+}
+
+form {
+    width: 100%;
+    max-width: 710px;
+    margin: 0 auto 36px;
+    display: block;
+
+    fieldset {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 16px;
+    }
+
+
+    label {
+        color: $brown-light;
+        font-family: $font-bold;
+        font-size: 0.75em;
+        margin-bottom: 16px;
+        display: block;
+    }
+
+    textarea {
+        height: 160px;
+    }
+
+    input,
+    textarea {
+        border: 1px solid $brown-light;
+        @include border-radius(3px);
+        line-height: 24px;
+        color: $brown-light;
+        padding: 4px 8px;
+        margin: 1px;
+        max-width: 300px;
+        width: 100%;
+        font-size: 1.15em;
+
+        &:focus {
+            border: 2px solid $brown-light;
+            outline: none;
+            margin: 0;
+        }
+
+        &[type="submit"] {
+            background-color: $blue;
+            color: $white;
+            width: auto;
+            font-family: $font-bold;
+            text-transform: uppercase;
+            border: none;
+            text-align: center;
+            display: block;
+            margin: 16px auto 0;
+        }
+    }
+
+    span.alert,
+    span.wpcf7-not-valid-tip {
+        color: $blue;
+    }
+
+    div.wpcf7-response-output {
+        border: 2px solid $brown-light;
+        color: $brown-light;
+        text-align: center;
+    }
 }
 
 ul.icons {
