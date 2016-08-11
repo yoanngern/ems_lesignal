@@ -1,13 +1,21 @@
 header {
     position: fixed;
     width: 100%;
-    max-width: 1400px;
     display: block;
     top: 0;
+    left: 0;
     height: 132px;
     background-color: $white;
     z-index: 1000;
     box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.50);
+
+    div.content {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1400px;
+        position: relative;
+    }
 
     #logo,
     #logo2 {

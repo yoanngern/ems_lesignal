@@ -54,13 +54,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
 header {
   position: fixed;
   width: 100%;
-  max-width: 1400px;
   display: block;
   top: 0;
+  left: 0;
   height: 132px;
   background-color: #FFFFFF;
   z-index: 1000;
   box-shadow: 0px 2px 23px 0px rgba(0, 0, 0, 0.5); }
+  header div.content {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    position: relative; }
   header #logo,
   header #logo2 {
     position: absolute;
@@ -115,7 +121,6 @@ footer {
   background-color: #4A3830;
   color: #FFFFFF;
   padding: 32px 48px;
-  position: relative;
   height: auto; }
   footer a {
     color: #DED5CF;
@@ -251,13 +256,16 @@ footer {
           background-color: #FFFFFF; }
 
 html, body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   display: block;
   font-size: 18px;
   font-family: "metropolisregular", sans-serif;
   -webkit-font-smoothing: antialiased;
-  width: 100%;
+  width: 100%; }
+
+body > div.content {
+  margin: 0 auto;
   max-width: 1400px; }
 
 h1 {
@@ -316,18 +324,18 @@ section.slide_full {
   section.slide_full .gradient_top {
     top: 0;
     background: transparent;
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, transparent), color-stop(1, rgba(0, 0, 0, 0.2)));
-    background: -ms-linear-gradient(bottom, transparent, rgba(0, 0, 0, 0.2));
-    background: -moz-linear-gradient(center bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, transparent), color-stop(1, rgba(0, 0, 0, 0.08)));
+    background: -ms-linear-gradient(bottom, transparent, rgba(0, 0, 0, 0.08));
+    background: -moz-linear-gradient(center bottom, transparent 0%, rgba(0, 0, 0, 0.08) 100%);
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.08), transparent);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled='false', startColorstr=$start, endColorstr=$stop); }
   section.slide_full .gradient_bottom {
     bottom: 0;
     background: transparent;
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0, 0, 0, 0.2)), color-stop(1, transparent));
-    background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.2), transparent);
-    background: -moz-linear-gradient(center bottom, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0, 0, 0, 0.08)), color-stop(1, transparent));
+    background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.08), transparent);
+    background: -moz-linear-gradient(center bottom, rgba(0, 0, 0, 0.08) 0%, transparent 100%);
+    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.08));
     filter: progid:DXImageTransform.Microsoft.gradient(enabled='false', startColorstr=$start, endColorstr=$stop); }
   section.slide_full article {
     position: absolute;

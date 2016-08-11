@@ -9,14 +9,20 @@
 @import 'slides';
 
 html, body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     display: block;
     font-size: 18px;
     font-family: $font;
     -webkit-font-smoothing: antialiased;
     width: 100%;
+}
+
+body > div.content {
+
+    margin: 0 auto;
     max-width: 1400px;
+
 }
 
 h1 {

@@ -16,39 +16,42 @@
 	<?php wp_head(); ?>
 
 
-
 </head>
 
 <body <?php body_class(); ?>>
 
 <header>
 
-	<a id="logo" href="/"></a>
-	<a id="logo2" href="/"></a>
+	<div class="content">
+		<a id="logo" href="/"></a>
+		<a id="logo2" href="/"></a>
 
-	<a id="logo_mobile" href="/">
-		<div class="icon"></div>
-	</a>
-	<div id="burger">
-		<div class="icon"></div>
+		<a id="logo_mobile" href="/">
+			<div class="icon"></div>
+		</a>
+		<div id="burger">
+			<div class="icon"></div>
+		</div>
+
+
+		<?php if ( has_nav_menu( 'header-menu' ) ) : ?>
+
+			<nav id="site-navigation" class="main-navigation" role="navigation"
+			     aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
+				<?php
+				wp_nav_menu( array(
+					'theme_location' => 'primary',
+					'menu_class'     => 'primary-menu',
+				) );
+				?>
+			</nav>
+
+		<?php endif; ?>
+
 	</div>
-
-
-	<?php if ( has_nav_menu( 'header-menu' ) ) : ?>
-
-		<nav id="site-navigation" class="main-navigation" role="navigation"
-		     aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'primary',
-				'menu_class'     => 'primary-menu',
-			) );
-			?>
-		</nav>
-
-	<?php endif; ?>
 </header>
 
+<div class="content">
 <?php if ( get_field( 'header' ) ): ?>
 <section class="slideheader">
 
