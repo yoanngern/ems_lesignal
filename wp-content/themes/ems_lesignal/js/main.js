@@ -8,6 +8,8 @@ jQuery(document).ready(function ($) {
         $("body > header nav").toggleClass("show");
     });
 
+    oneImage();
+
     $(document).scroll(function () {
 
         var pos = $(document).scrollTop();
@@ -37,16 +39,26 @@ jQuery(document).ready(function ($) {
 
     $(window).resize(function () {
 
+        oneImage();
+    });
+
+    function oneImage() {
         $("div.oneimage").each(function () {
             var wImage = $(this).width();
 
-            var ratio = $(this).data("height") / $(this).data("width");
+            var ratio = 1;
+
+            if($("body").width() <= 500 && $(this).data("height-mobile")) {
+                ratio = $(this).data("height-mobile") / $(this).data("width");
+            } else {
+                ratio = $(this).data("height") / $(this).data("width");
+            }
 
             console.log(ratio);
 
             $(this).height(wImage * ratio);
         });
-    });
+    }
 
     /*
      *  pos: 0 -> 100

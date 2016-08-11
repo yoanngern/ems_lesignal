@@ -590,7 +590,8 @@ ul.icons {
   section.slideheader {
     margin-top: 54px; }
 
-  section.slide_text .slidesjs {
+  section.slide_text .slidesjs,
+  section.slide_text div.oneimage {
     float: inherit;
     display: block;
     width: 100%; }

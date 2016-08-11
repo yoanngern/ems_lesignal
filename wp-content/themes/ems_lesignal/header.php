@@ -71,7 +71,7 @@
 
 		<div class="oneimage"
 		     style="background-image: url('<?php echo $image['sizes']['header-slide']; ?>')" data-width="1320"
-		     data-height="<?php echo $height; ?>"></div>
+		     data-height="<?php echo $height; ?>" data-height-mobile="600"></div>
 
 	<?php else: ?>
 
