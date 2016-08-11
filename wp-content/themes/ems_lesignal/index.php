@@ -205,9 +205,11 @@ if ( ! empty( $location ) ):
 <?php if ( $post->post_name == "contact" ): ?>
 
 	<section class="slogan">
-		<div class="line left"></div>
-		<h1>Nous écrire</h1>
-		<div class="line right"></div>
+		<div class="center">
+			<div class="line left"></div>
+			<h1>Nous écrire</h1>
+			<div class="line right"></div>
+		</div>
 	</section>
 
 	<?php echo do_shortcode( '[contact-form-7 id="200" title="Contact"]' );
