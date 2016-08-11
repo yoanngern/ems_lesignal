@@ -12,7 +12,11 @@
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-KefdnvHYruJR7sGAOolnbNMMdA2z_uA"></script>
 	<?php wp_head(); ?>
+
+
+
 </head>
 
 <body <?php body_class(); ?>>

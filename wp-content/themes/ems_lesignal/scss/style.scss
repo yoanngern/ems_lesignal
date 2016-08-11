@@ -282,6 +282,53 @@ section.slogan {
 
 }
 
+section.map {
+    margin: 0;
+    overflow: auto;
+    position: relative;
+
+    .acf-map {
+        width: 60%;
+        display: inline-block;
+        vertical-align: top;
+        float: right;
+
+         img {
+            max-width: inherit !important;
+        }
+    }
+
+    article {
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 64px;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+        height: 100%;
+
+        .text {
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            white-space: normal;
+            position: relative;
+            display: block;
+
+            div {
+                margin-bottom: 20px;
+            }
+
+            h2 {
+                margin: 0;
+            }
+        }
+    }
+
+}
+
 ul.icons {
     margin: 64px auto;
     text-align: center;

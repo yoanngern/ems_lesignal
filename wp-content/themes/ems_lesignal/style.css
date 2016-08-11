@@ -481,6 +481,39 @@ section.slogan {
     section.slogan div.line.right {
       right: 64px; }
 
+section.map {
+  margin: 0;
+  overflow: auto;
+  position: relative; }
+  section.map .acf-map {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    float: right; }
+    section.map .acf-map img {
+      max-width: inherit !important; }
+  section.map article {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 64px;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    height: 100%; }
+    section.map article .text {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      white-space: normal;
+      position: relative;
+      display: block; }
+      section.map article .text div {
+        margin-bottom: 20px; }
+      section.map article .text h2 {
+        margin: 0; }
+
 ul.icons {
   margin: 64px auto;
   text-align: center; }

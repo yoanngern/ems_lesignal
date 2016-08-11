@@ -153,14 +153,48 @@
 
 <?php
 
-$location = get_field( 'map' );
+if ( have_rows( 'map' ) ):
 
-if ( ! empty( $location ) ):
-	?>
-	<div class="acf-map">
-		<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
-	</div>
+	$location = get_field( 'map' );
+
+	if ( ! empty( $location ) ):
+
+		//$lat = 46.575858;
+		//$lng = 6.753039;
+
+		$lat = $location['lat'];
+		$lng = $location['lng'];
+
+
+		?>
+		<section class="map">
+			<div class="acf-map oneimage" data-width="1320"
+			     data-height="742.5">
+
+				<div class="marker " data-lat="<?php echo $lat; ?>"
+				     data-lng="<?php echo $lng; ?>"></div>
+			</div>
+
+			<article>
+				<div class="text">
+					<?php while ( have_rows( 'infos' ) ): the_row(); ?>
+
+						<div>
+							<h2><?php the_sub_field( 'title' ); ?></h2>
+							<p><?php the_sub_field( 'text' ); ?></p>
+						</div>
+					<?php endwhile; ?>
+				</div>
+			</article>
+
+		</section>
+
+	<?php endif; ?>
 <?php endif; ?>
+
+
+
+
 
 <?php if ( $post->post_name == "accueil" ): ?>
 
