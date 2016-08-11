@@ -31,5 +31,5 @@ add_theme_support( 'post-thumbnails' );
 
 
 add_image_size( '16_9-slide', 1280, 720, true);
-add_image_size( 'full-slide', 2100, 557, true);
+add_image_size( 'full-slide', 2100, 617, true);
 add_image_size( 'header-slide', 2100, 720, true);
