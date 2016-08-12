@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a5f5186-22e0-48f5-b972-0a1e0aaea34b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" />
     </list>
     <ignored path="ems_lesignal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,17 +24,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+            <state relative-caret-position="225">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -76,8 +75,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" />
       </list>
     </option>
   </component>
@@ -306,7 +305,7 @@
       <workItem from="1470136339839" duration="7254000" />
       <workItem from="1470204764646" duration="46251000" />
       <workItem from="1470985072873" duration="3741000" />
-      <workItem from="1471012247542" duration="359000" />
+      <workItem from="1471012247542" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="mobile version">
       <created>1470732007185</created>
@@ -609,11 +608,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471012623610</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="jquery var">
+      <created>1471012663566</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1471012663566</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83464000" />
+    <option name="totallyTimeSpent" value="83506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1052,18 +1058,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
