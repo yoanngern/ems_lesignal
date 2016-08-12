@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ee2e0ad6-3886-4711-b1eb-4b197be5c78b" name="ems-lesignal.ch" url="http://ems-lesignal.ch">
+        <fileTransfer host="ems-lesignal.ch" port="21" rootFolder="/ems" password="dfdcdff2dfeedfeddfe4df81df99df98" username="admin-ems">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
