@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5f5186-22e0-48f5-b972-0a1e0aaea34b" name="Default" comment="button hover">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/.sass-cache/9b79a7c401b767d340130330b9c09707a7d97346/style.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/.sass-cache/9b79a7c401b767d340130330b9c09707a7d97346/style.scssc" />
+    <list default="true" id="0a5f5186-22e0-48f5-b972-0a1e0aaea34b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/config.codekit" afterPath="$PROJECT_DIR$/wp-content/config.codekit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/js/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/style.css" />
     </list>
     <ignored path="ems_lesignal.iws" />
@@ -91,8 +91,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="721" column="9" selection-start-line="721" selection-start-column="9" selection-end-line="721" selection-end-column="9" />
+            <state relative-caret-position="386">
+              <caret line="719" column="18" selection-start-line="719" selection-start-column="18" selection-end-line="719" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -271,7 +271,7 @@
       <workItem from="1469430503177" duration="1561000" />
       <workItem from="1470136339839" duration="7254000" />
       <workItem from="1470204764646" duration="46251000" />
-      <workItem from="1470985072873" duration="295000" />
+      <workItem from="1470985072873" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="mobile version">
       <created>1470732007185</created>
@@ -490,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470927605026</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="mobile number link">
+      <created>1470985443121</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1470985443121</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79659000" />
+    <option name="totallyTimeSpent" value="79815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -504,6 +511,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.496875" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -512,7 +520,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.496875" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -574,7 +581,8 @@
     <MESSAGE value="max width body" />
     <MESSAGE value="update logo" />
     <MESSAGE value="button hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="button hover" />
+    <MESSAGE value="mobile number link" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile number link" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
@@ -974,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="721" column="9" selection-start-line="721" selection-start-column="9" selection-end-line="721" selection-end-column="9" />
+        <state relative-caret-position="386">
+          <caret line="719" column="18" selection-start-line="719" selection-start-column="18" selection-end-line="719" selection-end-column="18" />
           <folding />
         </state>
       </provider>
