@@ -485,7 +485,6 @@ ul.icons {
         padding-bottom: 72px;
 
         div.line {
-            margin-top: -36px;
         }
     }
 
@@ -725,11 +724,16 @@ ul.icons {
     }
 
     ul.icons {
-        margin: 0 auto;
+        margin: 0 auto 24px;
 
         li {
             width: 90%;
             margin: 36px 0 8px;
+
+            p a {
+                display: inline-block;
+                color: $blue;
+            }
         }
     }
 

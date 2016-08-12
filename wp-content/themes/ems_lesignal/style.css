@@ -631,8 +631,6 @@ ul.icons {
   section.slogan {
     margin-top: 72px;
     padding-bottom: 72px; }
-    section.slogan div.line {
-      margin-top: -36px; }
 
   footer {
     text-align: center; }
@@ -790,7 +788,10 @@ ul.icons {
     display: none; }
 
   ul.icons {
-    margin: 0 auto; }
+    margin: 0 auto 24px; }
     ul.icons li {
       width: 90%;
-      margin: 36px 0 8px; } }
+      margin: 36px 0 8px; }
+      ul.icons li p a {
+        display: inline-block;
+        color: #1B5F7A; } }
