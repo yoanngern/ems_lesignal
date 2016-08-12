@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5f5186-22e0-48f5-b972-0a1e0aaea34b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_114.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_114.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_120.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_120.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_147.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_147.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_152.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_152.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_57.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_57.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_72.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_76.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/favicon.ico" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/favicon.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/favicon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" />
     </list>
     <ignored path="ems_lesignal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +28,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="87" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -302,7 +295,7 @@
       <workItem from="1469430503177" duration="1561000" />
       <workItem from="1470136339839" duration="7254000" />
       <workItem from="1470204764646" duration="46251000" />
-      <workItem from="1470985072873" duration="2033000" />
+      <workItem from="1470985072873" duration="2349000" />
     </task>
     <task id="LOCAL-00001" summary="mobile version">
       <created>1470732007185</created>
@@ -549,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470987077464</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="update meta">
+      <created>1470987491810</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1470987491810</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81397000" />
+    <option name="totallyTimeSpent" value="81713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -637,7 +637,8 @@
     <MESSAGE value="minified css + js" />
     <MESSAGE value="add icons" />
     <MESSAGE value="update icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="update icons" />
+    <MESSAGE value="update meta" />
+    <option name="LAST_COMMIT_MESSAGE" value="update meta" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
@@ -1039,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="87" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
