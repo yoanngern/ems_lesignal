@@ -2065,6 +2065,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/themes\/ems_lesignal\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9395,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/ems_lesignal\/apple-touch-icon_114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8225,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_114.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_114.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/ems_lesignal\/apple-touch-icon_120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8719,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_120.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/ems_lesignal\/apple-touch-icon_147.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10672,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_147.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_147.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/ems_lesignal\/apple-touch-icon_152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11114,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_152.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/ems_lesignal\/apple-touch-icon_57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4042,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_57.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/ems_lesignal\/apple-touch-icon_72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5032,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_72.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_72.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/ems_lesignal\/apple-touch-icon_76.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5562,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_76.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/apple-touch-icon_76.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/ems_lesignal\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1539,
+		"inputAbbreviatedPath": "\/themes\/ems_lesignal\/favicon.png",
+		"outputAbbreviatedPath": "\/themes\/ems_lesignal\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/themes\/ems_lesignal\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
