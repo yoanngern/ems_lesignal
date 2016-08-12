@@ -28,7 +28,7 @@
 
 	<?php if ( $post->post_name == "contact" ): ?>
 
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-KefdnvHYruJR7sGAOolnbNMMdA2z_uA"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC09ejpvXIx-DFhuc58e7EUL956cvlYLOs"></script>
 
 	<?php endif; ?>
 	<?php wp_head(); ?>
