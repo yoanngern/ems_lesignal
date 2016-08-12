@@ -75,9 +75,6 @@ jQuery(document).ready(function ($) {
 
     }
 
-});
-
-jQuery(function ($) {
 
     $(".slidesjs").each(function () {
 
@@ -135,6 +132,4 @@ jQuery(function ($) {
 
         slider.slidesjs(option);
     });
-
-
 });
