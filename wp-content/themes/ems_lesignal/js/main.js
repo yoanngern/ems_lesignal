@@ -77,7 +77,7 @@ jQuery(document).ready(function ($) {
 
 });
 
-$(function () {
+jQuery(function () {
 
     $(".slidesjs").each(function () {
 
