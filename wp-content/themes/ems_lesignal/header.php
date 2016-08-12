@@ -1,6 +1,11 @@
 <?php ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
+
+	<title>EMS Le Signal</title>
+
+	<meta name="description" content="Un EMS en pleine nature à 15 minutes de Lausanne.">
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 
 	<meta name="viewport"

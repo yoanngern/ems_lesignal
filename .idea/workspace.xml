@@ -11,6 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_72.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_72.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_76.png" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/apple-touch-icon_76.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php" />
     </list>
     <ignored path="ems_lesignal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +35,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+            <state relative-caret-position="330">
+              <caret line="22" column="87" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -301,7 +302,7 @@
       <workItem from="1469430503177" duration="1561000" />
       <workItem from="1470136339839" duration="7254000" />
       <workItem from="1470204764646" duration="46251000" />
-      <workItem from="1470985072873" duration="1685000" />
+      <workItem from="1470985072873" duration="2033000" />
     </task>
     <task id="LOCAL-00001" summary="mobile version">
       <created>1470732007185</created>
@@ -541,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470986982520</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="update icons">
+      <created>1470987077464</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1470987077464</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81049000" />
+    <option name="totallyTimeSpent" value="81397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -628,7 +636,8 @@
     <MESSAGE value="mobile number link" />
     <MESSAGE value="minified css + js" />
     <MESSAGE value="add icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="add icons" />
+    <MESSAGE value="update icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="update icons" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
@@ -638,14 +647,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/scss/_slides.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -715,7 +716,7 @@
         <state relative-caret-position="765">
           <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -781,7 +782,7 @@
         <state relative-caret-position="120">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,7 +824,7 @@
         <state relative-caret-position="165">
           <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -868,13 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="91" column="31" selection-start-line="62" selection-start-column="16" selection-end-line="91" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -974,7 +968,7 @@
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1027,10 +1021,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ems_lesignal/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        <state relative-caret-position="330">
+          <caret line="22" column="87" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
           <folding />
         </state>
       </provider>
